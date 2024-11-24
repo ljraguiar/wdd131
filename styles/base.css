@@ -11,39 +11,44 @@ body {
 
 /* Estilo do Cabeçalho */
 header {
-    background: #00274d;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+  background-color: #0044cc; /* Cor azul (especificada pelo código hexadecimal) */
+  color: #fff; /* Texto branco para contraste */
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 3px solid #ffd700; /* Linha amarela na parte inferior */
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2.5em;
+  font-size: 1.8em;
+  margin: 0;
 }
 
 header .highlight {
-    color: #ffd700;
+  color: #ffd700; /* Destaque dourado no nome */
 }
 
-/* Estilo da Navegação */
 nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
+  display: flex;
+  justify-content: space-around; /* Espaço igual entre os links */
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  background-color: #000; /* Fundo preto */
 }
 
 nav ul li {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2em;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 10px; /* Espaçamento interno para os links */
+  background-color: #000; /* Fundo preto */
+  border-radius: 5px; /* Bordas arredondadas para um visual mais moderno */
 }
+
 
 /* Estilo do Conteúdo Principal */
 main {
